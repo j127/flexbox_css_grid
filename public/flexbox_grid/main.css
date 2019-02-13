@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Lusitana|Open+Sans');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+    border: 1px solid #eee;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Lusitana', serif;
+}
+
+.header {
+    margin-bottom: 67px;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    flex: 1;
+    width: 32%;
+}
+
+@media (max-width: 550px) {
+    .grid {
+        display: block;
+    }
+    .col {
+        padding-bottom: 17px;
+        border-bottom: 1px solid #666;
+    }
+}

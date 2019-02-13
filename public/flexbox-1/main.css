@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    /* flex-direction: column; this can also control reverse directions */
+    justify-content: space-evenly; /* right side, or space-evenly, -between, -around */
+    /* align-items: center; other direction */
+
+
+
+}
+
+.item {
+
+}
+.item-end {
+    /* align-self: flex-end; aligns separately from other items */
+}
