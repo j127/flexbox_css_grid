@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Lusitana|Open+Sans|EB+Garamond|Cinzel');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    'EB Garamond', serif;
+}
+
+h1#logo {
+    font-family: 'Cinzel'
+}
+
+h2, h3, h4 {
+    font-family: 'Lusitana', serif;
+}
+
+header {
+    text-align: center;
+}
+
+.logo-divider {
+    width: 90%;
+    border: 2px solid #666;
+}
+
+.navbar {
+    background-color: #333;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar li a {
+    text-decoration: none;
+    padding: 17px;
+    color: #fff;
+}
+
+.navbar li a:hover {
+    color: yellow;
+}
+
+
