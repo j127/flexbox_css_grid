@@ -4,6 +4,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+body img {
+    border-radius: 4px;
+}
+
 hr {
     border: 1px solid #eee;
 }
@@ -50,5 +54,6 @@ h1, h2, h3, h4 {
     .col {
         padding-bottom: 17px;
         border-bottom: 1px solid #666;
+        width: 90%;
     }
 }
