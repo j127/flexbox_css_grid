@@ -13,10 +13,14 @@ h1, h2, h3, h4 {
 }
 
 .header {
-    margin-bottom: 67px;
+    margin-bottom: 17px;
 }
 
 .grid {
+
+}
+
+.row {
     display: flex;
     justify-content: space-between;
 }
@@ -26,8 +30,21 @@ h1, h2, h3, h4 {
     width: 32%;
 }
 
-@media (max-width: 550px) {
-    .grid {
+.jumbotron {
+    padding: 17px;
+    margin: 0 17px;
+    background-color: #eee;
+    border-radius: 4px;
+}
+
+.panel {
+    border: 1px solid #eee;
+    padding: 7px;
+    margin: 11px 17px;
+}
+
+@media (max-width: 600px) {
+    .row {
         display: block;
     }
     .col {
