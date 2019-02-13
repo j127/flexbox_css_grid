@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Saluton Mondo Gridlex</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <header class="main">
+            <h1>Saluton Mondo</h1>
+            <div class="metadata">
+                <span id="date"></span>
+            </div>
+            <hr>
+        </header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">World</a></li>
+                <li><a href="#">US</a></li>
+                <li><a href="#">Tech</a></li>
+                <li><a href="#">Culture</a></li>
+            </ul>
+        </nav>
+        <h2>Breaking News</h2>
+        <div class="grid">
+            <div class="col">
+                <h3>ASDF</h3>
+                <img src="/images/matrix-kitten-250x250.png" height="250" width="250">
+                <div>Sit nesciunt eos consectetur autem architecto Dolore nulla ipsam commodi commodi cupiditate? Illum non quia consequuntur nulla voluptatibus.</div>
+            </div>
+            <div class="col">
+                <h3>ZXCV</h3>
+                <img src="/images/kitten-2-250x250.jpg" height="250" width="250">
+                <div>Sit nesciunt eos consectetur autem architecto Dolore nulla ipsam commodi commodi cupiditate? Illum non quia consequuntur nulla voluptatibus.</div>
+            </div>
+            <div class="col">
+                <h3>REWQ</h3>
+                <img src="/images/kitten-250x250.jpg" height="250" width="250">
+                <div>Sit nesciunt eos consectetur autem architecto Dolore nulla ipsam commodi commodi cupiditate? Illum non quia consequuntur nulla voluptatibus.</div>
+            </div>
+        </div>
+        <script>
+            const d = new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+document.addEventListener('DOMContentLoaded', () => document.getElementById('date').innerHTML = d);
+        </script>
+    </body>
+</html>
